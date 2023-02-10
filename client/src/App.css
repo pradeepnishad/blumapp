@@ -1,3 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .BasicForm{
+    width:100%;
+    height: 100vh;
+  
+  }
+  
+  video{
+    width: 100%;
+    height:100vh;
+    object-fit: cover;
+  }
+  
+  img{
+    position:relative;
+    margin-top: 60px;
+  }
+
+
+
 .App{
     display: flex;
     justify-content: center;
@@ -21,7 +47,7 @@ form{
     max-width: 591px;
     max-height: 628px;
     height: 80%;
-    background-color: rgba(143, 201, 205,0.25);
+    background-color: rgba(0, 103, 109,0.25);
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -57,23 +83,5 @@ form{
 }
 
 
-.links a{
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-
-.links a:hover{
-    color: rgb(59, 210, 230);
-}
 
 
-
-.links{
-    position:relative;
-    margin-top: 50px;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-}

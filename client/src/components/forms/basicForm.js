@@ -1,6 +1,9 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import videoBg from "../assests/videoBg.mp4";
 import logo from "../assests/logo.png";
+
+
 
 const BasicForm = () => {         // done laptop
     return (
@@ -30,8 +33,7 @@ const BasicForm = () => {         // done laptop
                     <input className="loginBtn" type="submit" value="Login" />
 
                     <div className="links">
-                        <a href="#">Create <br/>new account !!!</a>
-                        <a href="#"> Forget <br/>password ??</a>
+                        
                     </div>
                 </form>
             </div>
